@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand:wght@300;500&family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <section class="imagem-fundo"">
+        <img
+          src="./imagens/imagemPaginaInicial.jpg"
+          alt="Imagem Pagina Inicial"
+        />
+      </section>
+
+      <section id="mural">
+        <h1>mural de recados</h1>
+
+        <form method="get">
+          <div>
+            <input type="text" class="usuario-senha" placeholder="e-mail" />
+          </div>
+
+          <div>
+            <input type="password" class="usuario-senha" placeholder="senha" />
+          </div>
+
+          <div>
+            <button type="submit" id="default-button">entrar</button>
+          </div>
+          <div>
+            <p id="pergunta-conta">
+              ainda não tem conta?
+              <a href="./cadastro.html">se cadastre aqui</a>
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
